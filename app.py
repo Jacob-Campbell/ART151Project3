@@ -5,6 +5,8 @@ import requests
 
 app = Flask(__name__)
 
+# In order to run program open this directory in the terminal and execute this command 'python.exe app.py' then click on the last link found in the terminal
+
 @app.route('/', methods = ['GET', 'POST'])
 
 #define index function
